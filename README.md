@@ -7,6 +7,6 @@
 
 # Ссылки
 
-[https://github.com/WhXteBeXr/slozhno-sosredotochitsya-ad](Репозиторий)
+[Репозиторий](https://github.com/WhXteBeXr/slozhno-sosredotochitsya-ad)
 
-[https://whxtebexr.github.io/slozhno-sosredotochitsya-ad/](GitHub Pages проекта)
+[GitHub Pages проекта](https://whxtebexr.github.io/slozhno-sosredotochitsya-ad/)
