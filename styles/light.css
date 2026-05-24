@@ -16,14 +16,6 @@
   --shadow-link: 2px 1px 0 var(--color-accent);
 }
 
-.theme-light .header {
-  background-image: url("../images/cover-image-light.png");
-}
-
-.theme-light .header__rec-decoration {
-  display: none;
-}
-
 @media (prefers-color-scheme: light) {
   :root.theme-auto {
     --background-color: #fff1f7;
@@ -50,4 +42,12 @@
   .theme-auto .header__rec-decoration {
     display: none;
   }
+}
+
+.theme-light .header {
+  background-image: url("../images/cover-image-light.png");
+}
+
+.theme-light .header__rec-decoration {
+  display: none;
 }

@@ -1,4 +1,20 @@
 :root {
+  --background-color: #000028;
+  --color-accent: #ff0070;
+  --color-accent-translucent: #ff007066;
+  --color-secondary: #db00ff;
+
+  --color-title: var(--color-secondary);
+  --color-section-title: var(--color-accent);
+  --color-section-subtitle: var(--background-color);
+  --color-tips-title: var(--background-color);
+  --color-text: #f1b2ce;
+  --color-text-caption: var(--background-color);
+  --color-decorative-background: var(--color-accent);
+
+  --shadow-title: 4px 4px 0 var(--color-accent);
+  --shadow-link: 2px 1px 0 var(--color-accent);
+
   --text-family-main: 'IBM Plex mono';
 
   --text-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
