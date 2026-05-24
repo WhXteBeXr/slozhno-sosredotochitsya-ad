@@ -17,5 +17,5 @@
 }
 
 .theme-dark .header {
-  background-image: url(../images/cover-image-dark.png);
+  background-image: url("/images/cover-image-dark.png");
 }
