@@ -14,13 +14,12 @@
 
   --shadow-title: 4px 4px 0 var(--color-accent);
   --shadow-link: 2px 1px 0 var(--color-accent);
-
-  --background-image: url(/images/cover-image-light.png);
 }
 
-.theme-light .page {
+.theme-light .header {
+  background-image: url(/images/cover-image-light.png);
+}
 
-  .header__rec-decoration {
-    display: none;
-  }
+.theme-light .header__rec-decoration {
+  display: none;
 }

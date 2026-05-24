@@ -14,8 +14,6 @@
 
   --shadow-title: 4px 4px 0 var(--color-accent);
   --shadow-link: 2px 1px 0 var(--color-accent);
-
-  --background-image: url(/images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,11 +34,13 @@
 
     --shadow-title: 4px 4px 0 var(--color-accent);
     --shadow-link: 2px 1px 0 var(--color-accent);
-
-    --background-image: url(/images/cover-image-light.png);
   }
 
   .header__rec-decoration {
     display: none;
+  }
+
+  .header {
+    background-image: url(/images/cover-image-light.png);
   }
 }

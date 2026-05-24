@@ -7,6 +7,7 @@
   font-size: var(--text-main-size);
   background-color: var(--background-color);
   color: var(--color-text);
+  background-attachment: fixed;
 }
 
 .decorative-background {
@@ -35,7 +36,7 @@
   margin-inline: -10px;
   padding-inline: 10px;
   block-size: 100vh;
-  background-image: var(--background-image);
+  background-image: url(/images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
 }
