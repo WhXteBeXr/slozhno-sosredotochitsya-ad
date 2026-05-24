@@ -1,16 +1,26 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --background-color: #fff1f7;
+  --color-accent: #ff8dcb;
+  --color-accent-translucent: #32312d66;
+  --color-secondary: #ffc2e6;
+
+  --color-title: var(--color-secondary);
+  --color-section-title: var(--color-accent);
+  --color-section-subtitle: var(--background-color);
+  --color-tips-title: var(--background-color);
+  --color-text: #000e2e;
+  --color-text-caption: var(--background-color);
+  --color-decorative-background: var(--color-accent);
+
+  --shadow-title: 4px 4px 0 var(--color-accent);
+  --shadow-link: 2px 1px 0 var(--color-accent);
+
+  --background-image: url(/images/cover-image-light.png);
 }
 
 .theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+
+  .header__rec-decoration {
+    display: none;
+  }
 }
