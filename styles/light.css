@@ -17,7 +17,7 @@
 }
 
 .theme-light .header {
-  background-image: url("/images/cover-image-light.png");
+  background-image: url("../images/cover-image-light.png");
 }
 
 .theme-light .header__rec-decoration {
