@@ -6,10 +6,20 @@
   --color-title: var(--color-secondary);
   --color-section-title: var(--color-accent);
   --color-section-subtitle: var(--background-color);
+  --color-tips-title: var(--background-color);
   --color-text: #f1b2ce;
+  --color-text-caption: var(--background-color);
+  --color-decorative-background: var(--color-accent) ;
 
-  --text-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --text-size-pc: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --text-family-main: 'IBM Plex mono';
 
-  --title-shadow: 4px 4px 0 var(--color-accent);
+  --text-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --text-title-pc: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --text-main-size: clamp(1rem, 1.125rem, 1.35rem);
+
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+
+  --shadow-title: 4px 4px 0 var(--color-accent);
+  --shadow-link: 2px 1px 0 var(--color-accent);
 }
